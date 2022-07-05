@@ -6,6 +6,7 @@ const Song = (props) => {
         props.voteFunction();
     }
 
+    //added a comment for GitHub Demo.
 
     return <li>{props.song.name} by {props.song.singer} : {props.song.votes}
         <button onClick={voteForSong}>vote</button>
